@@ -17,7 +17,7 @@ public class TestBase {
         //Configuration.startMaximized = true;
         //Configuration.holdBrowserOpen = true;
         String browser = System.getProperty("browser");
-        String version = System.getProperty("version");
+        String version = System.getProperty("browserVersion");
         //String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
        // String login = System.getProperty("login", "user1");
        // String pass = System.getProperty("pass", "1234");
