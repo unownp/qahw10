@@ -17,16 +17,16 @@ public class TestBase {
         //Configuration.startMaximized = true;
         //Configuration.holdBrowserOpen = true;
         String browser = System.getProperty("browser");
-        String version = System.getProperty("version");
-        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
-        String login = System.getProperty("login", "user1");
-        String pass = System.getProperty("pass", "1234");
-        Configuration.remote = "https://" + login + ":" + pass + "@" + remoteUrl;
+        //String version = System.getProperty("version");
+        //String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
+       // String login = System.getProperty("login", "user1");
+       // String pass = System.getProperty("pass", "1234");
+       // Configuration.remote = "https://" + login + ":" + pass + "@" + remoteUrl;
         Configuration.browser = System.getProperty("browser");
-        Configuration.browserVersion = System.getProperty("browserVersion");
+      //  Configuration.browserVersion = System.getProperty("browserVersion");
 
         Configuration.baseUrl="https://demoqa.com";
-        //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.browserSize = "1920x1080";
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
