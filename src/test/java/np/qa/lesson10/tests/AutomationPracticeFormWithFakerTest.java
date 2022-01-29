@@ -1,6 +1,7 @@
 package np.qa.lesson10.tests;
 
 import np.qa.lesson10.pages.RegistrationFormPage;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
@@ -12,6 +13,7 @@ public class AutomationPracticeFormWithFakerTest extends TestBase {
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
 
     @Test
+    @Tag("properties")
     void practiceFormTestWithFaker() {
         registrationFormPage.openPage()
                 .setFirstName((firstName))
