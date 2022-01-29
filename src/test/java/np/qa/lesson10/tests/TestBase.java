@@ -1,11 +1,11 @@
-package np.qa.lesson9.tests;
+package np.qa.lesson10.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
-import np.qa.lesson9.helpers.Attach;
-import np.qa.lesson9.pages.components.FixedBanComponent;
+import np.qa.lesson10.helpers.Attach;
+import np.qa.lesson10.pages.components.FixedBanComponent;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;

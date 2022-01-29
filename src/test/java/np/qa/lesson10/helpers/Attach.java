@@ -1,4 +1,4 @@
-package np.qa.lesson9.helpers;
+package np.qa.lesson10.helpers;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;

@@ -1,12 +1,12 @@
-package np.qa.lesson9.tests;
+package np.qa.lesson10.tests;
 
-import np.qa.lesson9.pages.RegistrationFormPage;
+import np.qa.lesson10.pages.RegistrationFormPage;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
-import static np.qa.lesson9.tests.TestData.*;
+import static np.qa.lesson10.tests.TestData.*;
 
 public class AutomationPracticeFormWithFakerTest extends TestBase {
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();

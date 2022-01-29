@@ -1,8 +1,8 @@
-package np.qa.lesson9.pages;
+package np.qa.lesson10.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import np.qa.lesson9.pages.components.CalendarComponent;
-import np.qa.lesson9.pages.components.FixedBanComponent;
+import np.qa.lesson10.pages.components.CalendarComponent;
+import np.qa.lesson10.pages.components.FixedBanComponent;
 
 import java.io.File;
 

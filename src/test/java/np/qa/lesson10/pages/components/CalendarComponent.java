@@ -1,4 +1,4 @@
-package np.qa.lesson9.pages.components;
+package np.qa.lesson10.pages.components;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;

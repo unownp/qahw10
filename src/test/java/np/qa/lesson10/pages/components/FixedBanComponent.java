@@ -1,4 +1,4 @@
-package np.qa.lesson9.pages.components;
+package np.qa.lesson10.pages.components;
 
 import com.codeborne.selenide.SelenideElement;
 
