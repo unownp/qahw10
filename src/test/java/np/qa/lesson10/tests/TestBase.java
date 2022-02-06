@@ -19,7 +19,7 @@ public class TestBase {
        // String user = System.getProperty("user");
        // String pass = System.getProperty("pass");
       //  String remote = System.getProperty("remote");
-        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
+      //  String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
        // String login = System.getProperty("login", "user1");
        // String pass = System.getProperty("pass", "1234");
        // Configuration.remote = "https://" + login + ":" + pass + "@" + remoteUrl;
@@ -28,6 +28,8 @@ public class TestBase {
       //  Configuration.remote = "https://" + user + ":" + pass + "@" + remote;
         Configuration.browser = System.getProperty("browser");
      //   Configuration.browserVersion = System.getProperty("browserVersion");
+
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.baseUrl="https://demoqa.com";
         Configuration.browserSize = "1920x1080";
         DesiredCapabilities capabilities = new DesiredCapabilities();
