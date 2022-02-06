@@ -13,6 +13,7 @@ public class AutomationPracticeFormTest extends TestBase {
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
 
     @Test
+    @Tag("properties")
      void practiceFormTest() {
         registrationFormPage.openPage()
                 .setFirstName(("Ololo"))

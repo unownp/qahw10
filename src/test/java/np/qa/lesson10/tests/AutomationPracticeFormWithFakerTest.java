@@ -13,6 +13,7 @@ public class AutomationPracticeFormWithFakerTest extends TestBase {
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
 
     @Test
+    @Tag("properties")
         void practiceFormTestWithFaker() {
         registrationFormPage.openPage()
                 .setFirstName((firstName))
