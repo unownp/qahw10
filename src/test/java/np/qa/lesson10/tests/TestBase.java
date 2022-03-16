@@ -4,6 +4,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
+import np.qa.lesson10.config.Credentials;
 import np.qa.lesson10.helpers.Attach;
 import np.qa.lesson10.pages.components.FixedBanComponent;
 import org.junit.jupiter.api.AfterEach;
@@ -22,8 +23,9 @@ public class TestBase {
        // String login = System.getProperty("login", "user1");
        // String pass = System.getProperty("pass", "1234");
        // Configuration.remote = "https://" + login + ":" + pass + "@" + remoteUrl;
-        String user = System.getProperty("user");
-        String pass = System.getProperty("pass");
+        String user = Credentials.config.user();
+        String pass = Credentials.config.password();
+
         String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
         Configuration.remote = "https://" + user + ":" + pass + "@" + remoteUrl;
 
